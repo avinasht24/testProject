@@ -1,0 +1,153 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for QaBotWeb:QaBotWeb:jar:0.0.1-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.atlassian.jira:jira-rest-java-client-core:jar -> duplicate declaration of version 3.0.0 @ line 82, column 15
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.atlassian.jira:jira-rest-java-client-api:jar -> duplicate declaration of version 3.0.0 @ line 88, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Downloading: http://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.21/kotlin-maven-plugin-1.2.21.pom
+Progress (1): 2.3/5.9 kBProgress (1): 5.9 kB                        Downloaded: http://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.21/kotlin-maven-plugin-1.2.21.pom (5.9 kB at 3.1 kB/s)
+Downloading: http://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-project/1.2.21/kotlin-project-1.2.21.pom
+Progress (1): 3.8/10 kBProgress (1): 5.2/10 kBProgress (1): 9.3/10 kBProgress (1): 10 kB                       Downloaded: http://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-project/1.2.21/kotlin-project-1.2.21.pom (10 kB at 17 kB/s)
+Downloading: http://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.21/kotlin-maven-plugin-1.2.21.jar
+Progress (1): 3.8/73 kBProgress (1): 5.2/73 kBProgress (1): 9.3/73 kBProgress (1): 11/73 kB Progress (1): 15/73 kBProgress (1): 19/73 kBProgress (1): 20/73 kBProgress (1): 24/73 kBProgress (1): 27/73 kBProgress (1): 31/73 kBProgress (1): 35/73 kBProgress (1): 39/73 kBProgress (1): 43/73 kBProgress (1): 47/73 kBProgress (1): 51/73 kBProgress (1): 55/73 kBProgress (1): 60/73 kBProgress (1): 64/73 kBProgress (1): 68/73 kBProgress (1): 72/73 kBProgress (1): 73 kB                      Downloaded: http://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-maven-plugin/1.2.21/kotlin-maven-plugin-1.2.21.jar (73 kB at 67 kB/s)
+Downloading: http://jcenter.bintray.com/org/jooq/jooq-codegen-maven/3.10.5/jooq-codegen-maven-3.10.5.pom
+Progress (1): 2.3/3.3 kBProgress (1): 3.3 kB                        Downloaded: http://jcenter.bintray.com/org/jooq/jooq-codegen-maven/3.10.5/jooq-codegen-maven-3.10.5.pom (3.3 kB at 5.8 kB/s)
+Downloading: http://jcenter.bintray.com/org/jooq/jooq-parent/3.10.5/jooq-parent-3.10.5.pom
+Progress (1): 0.9/11 kBProgress (1): 3.8/11 kBProgress (1): 6.7/11 kBProgress (1): 8.1/11 kBProgress (1): 11 kB                       Downloaded: http://jcenter.bintray.com/org/jooq/jooq-parent/3.10.5/jooq-parent-3.10.5.pom (11 kB at 19 kB/s)
+Downloading: http://jcenter.bintray.com/org/jooq/jooq-codegen-maven/3.10.5/jooq-codegen-maven-3.10.5.jar
+Progress (1): 0.9/16 kBProgress (1): 3.8/16 kBProgress (1): 6.7/16 kBProgress (1): 11/16 kB Progress (1): 11/16 kBProgress (1): 12/16 kBProgress (1): 16 kB                      Downloaded: http://jcenter.bintray.com/org/jooq/jooq-codegen-maven/3.10.5/jooq-codegen-maven-3.10.5.jar (16 kB at 28 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.pom
+Progress (1): 3.3 kB                    Downloaded: http://jcenter.bintray.com/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.pom (3.3 kB at 5.9 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.jar
+Progress (1): 2.4/36 kBProgress (1): 3.9/36 kBProgress (1): 8.0/36 kBProgress (1): 8.2/36 kBProgress (1): 9.7/36 kBProgress (1): 13/36 kB Progress (1): 14/36 kBProgress (1): 18/36 kBProgress (1): 18/36 kBProgress (1): 21/36 kBProgress (1): 23/36 kBProgress (1): 27/36 kBProgress (1): 27/36 kBProgress (1): 31/36 kBProgress (1): 34/36 kBProgress (1): 36 kB                      Downloaded: http://jcenter.bintray.com/org/apache/maven/plugins/maven-antrun-plugin/1.8/maven-antrun-plugin-1.8.jar (36 kB at 29 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.pom
+Progress (1): 2.3/16 kBProgress (1): 3.8/16 kBProgress (1): 6.7/16 kBProgress (1): 9.6/16 kBProgress (1): 12/16 kB Progress (1): 14/16 kBProgress (1): 16 kB                      Downloaded: http://jcenter.bintray.com/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.pom (16 kB at 18 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.jar
+Progress (1): 2.3/241 kBProgress (1): 6.4/241 kBProgress (1): 6.6/241 kBProgress (1): 9.5/241 kBProgress (1): 14/241 kB Progress (1): 14/241 kBProgress (1): 18/241 kBProgress (1): 22/241 kBProgress (1): 23/241 kBProgress (1): 25/241 kBProgress (1): 30/241 kBProgress (1): 30/241 kBProgress (1): 31/241 kBProgress (1): 35/241 kBProgress (1): 39/241 kBProgress (1): 44/241 kBProgress (1): 48/241 kBProgress (1): 50/241 kBProgress (1): 54/241 kBProgress (1): 58/241 kBProgress (1): 62/241 kBProgress (1): 66/241 kBProgress (1): 71/241 kBProgress (1): 75/241 kBProgress (1): 79/241 kBProgress (1): 83/241 kBProgress (1): 87/241 kBProgress (1): 91/241 kBProgress (1): 95/241 kBProgress (1): 99/241 kBProgress (1): 103/241 kBProgress (1): 107/241 kBProgress (1): 112/241 kBProgress (1): 116/241 kBProgress (1): 120/241 kBProgress (1): 124/241 kBProgress (1): 128/241 kBProgress (1): 132/241 kBProgress (1): 136/241 kBProgress (1): 140/241 kBProgress (1): 144/241 kBProgress (1): 148/241 kBProgress (1): 152/241 kBProgress (1): 157/241 kBProgress (1): 161/241 kBProgress (1): 165/241 kBProgress (1): 169/241 kBProgress (1): 173/241 kBProgress (1): 177/241 kBProgress (1): 181/241 kBProgress (1): 185/241 kBProgress (1): 189/241 kBProgress (1): 193/241 kBProgress (1): 198/241 kBProgress (1): 202/241 kBProgress (1): 206/241 kBProgress (1): 210/241 kBProgress (1): 214/241 kBProgress (1): 218/241 kBProgress (1): 222/241 kBProgress (1): 226/241 kBProgress (1): 230/241 kBProgress (1): 234/241 kBProgress (1): 238/241 kBProgress (1): 241 kB                        Downloaded: http://jcenter.bintray.com/org/apache/maven/plugins/maven-assembly-plugin/3.1.0/maven-assembly-plugin-3.1.0.jar (241 kB at 113 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/plugins/maven-dependency-plugin/3.0.1/maven-dependency-plugin-3.0.1.pom
+Progress (1): 2.3/14 kBProgress (1): 3.8/14 kBProgress (1): 7.9/14 kBProgress (1): 12/14 kB Progress (1): 12/14 kBProgress (1): 14 kB                      Downloaded: http://jcenter.bintray.com/org/apache/maven/plugins/maven-dependency-plugin/3.0.1/maven-dependency-plugin-3.0.1.pom (14 kB at 17 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/plugins/maven-dependency-plugin/3.0.1/maven-dependency-plugin-3.0.1.jar
+Progress (1): 2.3/164 kBProgress (1): 3.8/164 kBProgress (1): 5.2/164 kBProgress (1): 8.1/164 kBProgress (1): 11/164 kB Progress (1): 12/164 kBProgress (1): 15/164 kBProgress (1): 18/164 kBProgress (1): 20/164 kBProgress (1): 24/164 kBProgress (1): 27/164 kBProgress (1): 28/164 kBProgress (1): 32/164 kBProgress (1): 36/164 kBProgress (1): 40/164 kBProgress (1): 44/164 kBProgress (1): 44/164 kBProgress (1): 46/164 kBProgress (1): 50/164 kBProgress (1): 54/164 kBProgress (1): 54/164 kBProgress (1): 57/164 kBProgress (1): 61/164 kBProgress (1): 65/164 kBProgress (1): 66/164 kBProgress (1): 70/164 kBProgress (1): 74/164 kBProgress (1): 76/164 kBProgress (1): 78/164 kBProgress (1): 81/164 kBProgress (1): 83/164 kBProgress (1): 88/164 kBProgress (1): 88/164 kBProgress (1): 89/164 kBProgress (1): 93/164 kBProgress (1): 97/164 kBProgress (1): 101/164 kBProgress (1): 102/164 kBProgress (1): 106/164 kBProgress (1): 110/164 kBProgress (1): 114/164 kBProgress (1): 115/164 kBProgress (1): 119/164 kBProgress (1): 123/164 kBProgress (1): 128/164 kBProgress (1): 128/164 kBProgress (1): 132/164 kBProgress (1): 136/164 kBProgress (1): 141/164 kBProgress (1): 143/164 kBProgress (1): 144/164 kBProgress (1): 147/164 kBProgress (1): 150/164 kBProgress (1): 154/164 kBProgress (1): 158/164 kBProgress (1): 159/164 kBProgress (1): 160/164 kBProgress (1): 164 kB                        Downloaded: http://jcenter.bintray.com/org/apache/maven/plugins/maven-dependency-plugin/3.0.1/maven-dependency-plugin-3.0.1.jar (164 kB at 101 kB/s)
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building QaBotWeb 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.0.1:tree (default-cli) @ QaBotWeb ---
+Downloading: http://jcenter.bintray.com/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.pom
+Progress (1): 2.3/5.9 kBProgress (1): 3.8/5.9 kBProgress (1): 5.9 kB                        Downloaded: http://jcenter.bintray.com/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.pom (5.9 kB at 10 kB/s)
+Downloading: http://jcenter.bintray.com/org/ow2/asm/asm/5.0.2/asm-5.0.2.pom
+Progress (1): 1.9 kB                    Downloaded: http://jcenter.bintray.com/org/ow2/asm/asm/5.0.2/asm-5.0.2.pom (1.9 kB at 2.8 kB/s)
+Downloading: http://jcenter.bintray.com/org/ow2/asm/asm-parent/5.0.2/asm-parent-5.0.2.pom
+Progress (1): 2.5/5.5 kBProgress (1): 3.9/5.5 kBProgress (1): 5.5 kB                        Downloaded: http://jcenter.bintray.com/org/ow2/asm/asm-parent/5.0.2/asm-parent-5.0.2.pom (5.5 kB at 9.7 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.pom
+Progress (1): 2.3/7.5 kBProgress (1): 3.8/7.5 kBProgress (1): 6.7/7.5 kBProgress (1): 7.5 kB                        Downloaded: http://jcenter.bintray.com/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.pom (7.5 kB at 13 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.pom
+Progress (1): 0.9/4.8 kBProgress (1): 3.8/4.8 kBProgress (1): 4.8 kB                        Downloaded: http://jcenter.bintray.com/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.pom (4.8 kB at 8.6 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.pom
+Progress (1): 3.8/7.6 kBProgress (1): 5.2/7.6 kBProgress (1): 7.6 kB                        Downloaded: http://jcenter.bintray.com/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.pom (7.6 kB at 13 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/reporting/maven-reporting-impl/2.3/maven-reporting-impl-2.3.jar
+Downloading: http://jcenter.bintray.com/org/apache/maven/shared/maven-shared-utils/0.6/maven-shared-utils-0.6.jar
+Downloading: http://jcenter.bintray.com/org/apache/maven/doxia/doxia-core/1.2/doxia-core-1.2.jar
+Downloading: http://jcenter.bintray.com/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.jar
+Downloading: http://jcenter.bintray.com/org/ow2/asm/asm/5.0.2/asm-5.0.2.jar
+Progress (1): 2.4/18 kBProgress (1): 5.3/18 kBProgress (1): 6.8/18 kBProgress (1): 11/18 kB Progress (1): 14/18 kBProgress (1): 18 kB   Progress (2): 18 kB | 2.5/53 kBProgress (2): 18 kB | 6.6/53 kBProgress (2): 18 kB | 6.8/53 kBProgress (3): 18 kB | 6.8/53 kB | 2.3/35 kBProgress (3): 18 kB | 6.8/53 kB | 6.4/35 kBProgress (3): 18 kB | 6.8/53 kB | 6.7/35 kBProgress (3): 18 kB | 11/53 kB | 6.7/35 kB Progress (3): 18 kB | 14/53 kB | 6.7/35 kBProgress (3): 18 kB | 18/53 kB | 6.7/35 kBProgress (3): 18 kB | 22/53 kB | 6.7/35 kBProgress (3): 18 kB | 26/53 kB | 6.7/35 kBProgress (3): 18 kB | 26/53 kB | 11/35 kB Progress (3): 18 kB | 26/53 kB | 15/35 kBProgress (3): 18 kB | 26/53 kB | 19/35 kBProgress (3): 18 kB | 26/53 kB | 23/35 kBProgress (3): 18 kB | 30/53 kB | 23/35 kBProgress (3): 18 kB | 34/53 kB | 23/35 kBProgress (3): 18 kB | 38/53 kB | 23/35 kBProgress (3): 18 kB | 42/53 kB | 23/35 kBProgress (3): 18 kB | 46/53 kB | 23/35 kBProgress (3): 18 kB | 50/53 kB | 23/35 kBProgress (3): 18 kB | 53 kB | 23/35 kB   Progress (3): 18 kB | 53 kB | 27/35 kBProgress (3): 18 kB | 53 kB | 31/35 kBProgress (3): 18 kB | 53 kB | 35/35 kBProgress (3): 18 kB | 53 kB | 35 kB                                      Downloaded: http://jcenter.bintray.com/org/apache/maven/reporting/maven-reporting-impl/2.3/maven-reporting-impl-2.3.jar (18 kB at 16 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.jar
+Progress (3): 53 kB | 35 kB | 2.4/165 kBProgress (3): 53 kB | 35 kB | 3.9/165 kBProgress (3): 53 kB | 35 kB | 5.3/165 kBProgress (3): 53 kB | 35 kB | 8.2/165 kBProgress (3): 53 kB | 35 kB | 9.7/165 kBProgress (3): 53 kB | 35 kB | 14/165 kB Progress (3): 53 kB | 35 kB | 18/165 kBProgress (3): 53 kB | 35 kB | 18/165 kBProgress (3): 53 kB | 35 kB | 20/165 kBProgress (3): 53 kB | 35 kB | 24/165 kBProgress (3): 53 kB | 35 kB | 28/165 kBProgress (3): 53 kB | 35 kB | 31/165 kBProgress (3): 53 kB | 35 kB | 33/165 kBProgress (3): 53 kB | 35 kB | 37/165 kBProgress (3): 53 kB | 35 kB | 41/165 kBProgress (3): 53 kB | 35 kB | 44/165 kBProgress (3): 53 kB | 35 kB | 49/165 kBProgress (3): 53 kB | 35 kB | 53/165 kBProgress (3): 53 kB | 35 kB | 57/165 kBProgress (3): 53 kB | 35 kB | 59/165 kBProgress (3): 53 kB | 35 kB | 63/165 kBProgress (3): 53 kB | 35 kB | 67/165 kBProgress (3): 53 kB | 35 kB | 71/165 kBProgress (3): 53 kB | 35 kB | 75/165 kBProgress (3): 53 kB | 35 kB | 79/165 kBProgress (3): 53 kB | 35 kB | 83/165 kBProgress (3): 53 kB | 35 kB | 88/165 kBProgress (3): 53 kB | 35 kB | 92/165 kBProgress (3): 53 kB | 35 kB | 96/165 kBProgress (3): 53 kB | 35 kB | 100/165 kBProgress (3): 53 kB | 35 kB | 104/165 kBProgress (3): 53 kB | 35 kB | 108/165 kBProgress (3): 53 kB | 35 kB | 112/165 kBProgress (3): 53 kB | 35 kB | 116/165 kBProgress (3): 53 kB | 35 kB | 120/165 kBProgress (3): 53 kB | 35 kB | 123/165 kBProgress (3): 53 kB | 35 kB | 127/165 kBProgress (3): 53 kB | 35 kB | 131/165 kBProgress (3): 53 kB | 35 kB | 135/165 kBProgress (3): 53 kB | 35 kB | 139/165 kBProgress (3): 53 kB | 35 kB | 140/165 kBProgress (3): 53 kB | 35 kB | 144/165 kBProgress (3): 53 kB | 35 kB | 148/165 kBProgress (3): 53 kB | 35 kB | 152/165 kBProgress (3): 53 kB | 35 kB | 156/165 kBProgress (3): 53 kB | 35 kB | 159/165 kBProgress (3): 53 kB | 35 kB | 163/165 kBProgress (3): 53 kB | 35 kB | 165 kB                                        Downloaded: http://jcenter.bintray.com/org/ow2/asm/asm/5.0.2/asm-5.0.2.jar (53 kB at 37 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar
+Downloaded: http://jcenter.bintray.com/org/apache/maven/shared/maven-dependency-analyzer/1.7/maven-dependency-analyzer-1.7.jar (35 kB at 25 kB/s)
+Downloading: http://jcenter.bintray.com/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.jar
+Progress (2): 165 kB | 2.5/154 kBProgress (2): 165 kB | 6.5/154 kBProgress (2): 165 kB | 6.8/154 kBProgress (2): 165 kB | 11/154 kB Progress (2): 165 kB | 15/154 kBProgress (2): 165 kB | 19/154 kBProgress (2): 165 kB | 23/154 kBProgress (2): 165 kB | 27/154 kBProgress (2): 165 kB | 31/154 kB                                Downloaded: http://jcenter.bintray.com/org/apache/maven/shared/maven-shared-utils/0.6/maven-shared-utils-0.6.jar (165 kB at 102 kB/s)
+Progress (1): 35/154 kBProgress (1): 39/154 kBProgress (1): 43/154 kBProgress (1): 47/154 kBProgress (1): 51/154 kBProgress (1): 55/154 kBProgress (1): 59/154 kBProgress (1): 60/154 kBProgress (1): 62/154 kBProgress (1): 65/154 kBProgress (1): 66/154 kBProgress (1): 70/154 kBProgress (1): 74/154 kBProgress (1): 78/154 kBProgress (1): 83/154 kBProgress (1): 87/154 kBProgress (1): 91/154 kBProgress (1): 95/154 kBProgress (1): 99/154 kBProgress (1): 101/154 kBProgress (1): 105/154 kBProgress (1): 109/154 kBProgress (1): 113/154 kBProgress (1): 117/154 kBProgress (1): 121/154 kBProgress (1): 125/154 kBProgress (1): 130/154 kBProgress (1): 134/154 kBProgress (1): 138/154 kBProgress (1): 142/154 kBProgress (1): 146/154 kBProgress (1): 150/154 kBProgress (1): 154 kB    Progress (2): 154 kB | 3.8/37 kBProgress (2): 154 kB | 6.7/37 kBProgress (2): 154 kB | 11/37 kB Progress (2): 154 kB | 11/37 kBProgress (2): 154 kB | 15/37 kBProgress (2): 154 kB | 19/37 kBProgress (2): 154 kB | 23/37 kBProgress (2): 154 kB | 27/37 kBProgress (2): 154 kB | 31/37 kBProgress (2): 154 kB | 35/37 kBProgress (2): 154 kB | 37 kB                               Downloaded: http://jcenter.bintray.com/org/apache/maven/doxia/doxia-core/1.2/doxia-core-1.2.jar (154 kB at 81 kB/s)
+Downloaded: http://jcenter.bintray.com/org/apache/maven/shared/maven-dependency-tree/3.0.1/maven-dependency-tree-3.0.1.jar (37 kB at 19 kB/s)
+Progress (1): 3.8/61 kBProgress (1): 6.7/61 kBProgress (1): 11/61 kB Progress (1): 11/61 kBProgress (1): 15/61 kBProgress (1): 19/61 kBProgress (1): 23/61 kBProgress (1): 27/61 kBProgress (1): 31/61 kBProgress (1): 36/61 kBProgress (1): 40/61 kBProgress (1): 44/61 kBProgress (1): 48/61 kBProgress (1): 52/61 kBProgress (1): 56/61 kBProgress (1): 60/61 kBProgress (1): 61 kB   Progress (2): 61 kB | 2.3/123 kBProgress (2): 61 kB | 3.8/123 kBProgress (2): 61 kB | 5.2/123 kBProgress (2): 61 kB | 8.1/123 kBProgress (2): 61 kB | 12/123 kB Progress (2): 61 kB | 16/123 kBProgress (2): 61 kB | 18/123 kBProgress (2): 61 kB | 20/123 kBProgress (2): 61 kB | 23/123 kBProgress (2): 61 kB | 27/123 kBProgress (2): 61 kB | 31/123 kBProgress (2): 61 kB | 35/123 kBProgress (2): 61 kB | 39/123 kBProgress (2): 61 kB | 41/123 kBProgress (2): 61 kB | 46/123 kBProgress (2): 61 kB | 50/123 kBProgress (2): 61 kB | 54/123 kBProgress (2): 61 kB | 58/123 kBProgress (2): 61 kB | 62/123 kBProgress (2): 61 kB | 66/123 kBProgress (2): 61 kB | 69/123 kBProgress (2): 61 kB | 73/123 kBProgress (2): 61 kB | 77/123 kBProgress (2): 61 kB | 81/123 kBProgress (2): 61 kB | 85/123 kBProgress (2): 61 kB | 89/123 kBProgress (2): 61 kB | 94/123 kBProgress (2): 61 kB | 98/123 kBProgress (2): 61 kB | 102/123 kBProgress (2): 61 kB | 106/123 kBProgress (2): 61 kB | 108/123 kBProgress (2): 61 kB | 112/123 kBProgress (2): 61 kB | 116/123 kBProgress (2): 61 kB | 120/123 kBProgress (2): 61 kB | 123 kB                                Downloaded: http://jcenter.bintray.com/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar (61 kB at 27 kB/s)
+Downloaded: http://jcenter.bintray.com/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.jar (123 kB at 48 kB/s)
+[INFO] QaBotWeb:QaBotWeb:jar:0.0.1-SNAPSHOT
+[INFO] +- postgresql:postgresql:jar:9.1-901.jdbc4:compile
+[INFO] +- org.mongodb:mongo-java-driver:jar:3.4.2:compile
+[INFO] +- org.mongodb:mongodb-driver:jar:3.4.2:compile
+[INFO] |  +- org.mongodb:bson:jar:3.6.3:compile
+[INFO] |  \- org.mongodb:mongodb-driver-core:jar:3.6.3:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:2.0.0.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.0.0.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+[INFO] |  |  |  +- org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0:compile
+[INFO] |  |  |  |  \- org.apache.logging.log4j:log4j-api:jar:2.10.0:compile
+[INFO] |  |  |  \- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.3.2:compile
+[INFO] |  |  +- org.springframework:spring-core:jar:5.0.4.RELEASE:compile
+[INFO] |  |  |  \- org.springframework:spring-jcl:jar:5.0.4.RELEASE:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.19:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-json:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.4:compile
+[INFO] |  |  +- com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.4:compile
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.4:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.0.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.28:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.28:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.28:compile
+[INFO] |  +- org.hibernate.validator:hibernate-validator:jar:6.0.7.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:2.0.1.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.2.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:5.0.4.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-beans:jar:5.0.4.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:5.0.4.RELEASE:compile
+[INFO] |     +- org.springframework:spring-aop:jar:5.0.4.RELEASE:compile
+[INFO] |     +- org.springframework:spring-context:jar:5.0.4.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:5.0.4.RELEASE:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-core:jar:2.9.4:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.4:compile
+[INFO] +- com.atlassian.jira:jira-rest-java-client-core:jar:3.0.0:compile
+[INFO] |  +- com.sun.jersey:jersey-client:jar:1.5:compile
+[INFO] |  |  \- com.sun.jersey:jersey-core:jar:1.5:compile
+[INFO] |  +- com.sun.jersey:jersey-json:jar:1.5:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.1:compile
+[INFO] |  |  |  \- stax:stax-api:jar:1.0.1:compile
+[INFO] |  |  +- com.sun.xml.bind:jaxb-impl:jar:2.2.3:compile
+[INFO] |  |  |  \- javax.xml.bind:jaxb-api:jar:2.3.0:compile
+[INFO] |  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.5.5:compile
+[INFO] |  |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.5.5:compile
+[INFO] |  |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.5.5:compile
+[INFO] |  |  \- org.codehaus.jackson:jackson-xc:jar:1.5.5:compile
+[INFO] |  +- joda-time:joda-time:jar:2.9.9:compile
+[INFO] |  +- com.atlassian.httpclient:atlassian-httpclient-apache-httpcomponents:jar:0.13.2:compile
+[INFO] |  |  +- com.atlassian.sal:sal-api:jar:2.7.0:compile
+[INFO] |  |  +- com.atlassian.event:atlassian-event:jar:2.2.0:compile
+[INFO] |  |  |  \- commons-lang:commons-lang:jar:2.4:compile
+[INFO] |  |  +- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpasyncclient-cache:jar:4.0-beta3-atlassian-1:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpclient-cache:jar:4.5.5:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpasyncclient:jar:4.1.3:compile
+[INFO] |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.9:compile
+[INFO] |  |  \- org.apache.httpcomponents:httpcore-nio:jar:4.4.9:compile
+[INFO] |  +- com.atlassian.util.concurrent:atlassian-util-concurrent:jar:2.4.0-M9:compile
+[INFO] |  +- org.apache.httpcomponents:httpmime:jar:4.5.5:compile
+[INFO] |  |  \- org.apache.httpcomponents:httpclient:jar:4.5.5:compile
+[INFO] |  |     \- commons-codec:commons-codec:jar:1.11:compile
+[INFO] |  \- com.google.guava:guava:jar:10.0.1:compile
+[INFO] |     \- com.google.code.findbugs:jsr305:jar:1.3.9:compile
+[INFO] +- com.atlassian.jira:jira-rest-java-client-api:jar:3.0.0:compile
+[INFO] |  \- com.atlassian.httpclient:atlassian-httpclient-api:jar:0.13.2:compile
+[INFO] |     \- com.atlassian.httpclient:atlassian-httpclient-spi:jar:0.13.2:compile
+[INFO] +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.4:compile
+[INFO] +- org.json:json:jar:20140107:compile
+[INFO] +- javax.servlet:servlet-api:jar:2.5:provided
+[INFO] +- jstl:jstl:jar:1.2:compile
+[INFO] +- commons-logging:commons-logging:jar:1.2:compile
+[INFO] \- org.xerial:sqlite-jdbc:jar:3.21.0:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 29.918 s
+[INFO] Finished at: 2018-04-04T17:50:22+07:00
+[INFO] Final Memory: 24M/232M
+[INFO] ------------------------------------------------------------------------
